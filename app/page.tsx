@@ -19,7 +19,7 @@ export default function Home() {
   }, []); // Pass an empty array as the second argument for now
 
   return (
-    <div>
+    <div className="items-center  justify-center">
       <Resume />
       <button onClick={downloadPDF} className="bg-blue-500 text-white px-4 py-2 rounded">
         Download PDF

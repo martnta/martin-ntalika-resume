@@ -5,6 +5,7 @@ import {
   SiDart,
   SiCsharp,
   SiReact,
+  SiRust,
   SiNextdotjs,
   SiFlutter,
   SiNodedotjs,
@@ -15,7 +16,11 @@ import {
   SiGit,
   SiDocker,
   SiApachekafka,
+  SiCisco,
+  SiWireshark,
+  SiLinux,
 } from 'react-icons/si';
+import { FaNetworkWired } from 'react-icons/fa';
 
 const Resume = () => {
   return (
@@ -27,14 +32,16 @@ const Resume = () => {
         className="bg-white p-8 rounded-lg shadow-lg max-w-3xl"
       >
         <h1 className="text-4xl font-bold mb-4">Martin Ntalika</h1>
-        <p className="text-gray-600 mb-8">Freelance Full-Stack Engineer</p>
+        <p className="text-gray-600 mb-8">Full-Stack Software Engineer</p>
 
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Summary</h2>
           <p>
             Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
             using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
-            practices. Adept at collaborating with clients and delivering high-quality solutions.
+            practices. Adept at collaborating with clients and delivering high-quality solutions. Specializes in 
+            microservices design, and implementing scalable, secure IT infrastructure 
+            with expertise in containerization, continuous integration, and network optimization.
           </p>
         </div>
 
@@ -56,6 +63,10 @@ const Resume = () => {
             <div className="flex items-center mr-4 mb-2">
               <SiReact className="text-blue-500 mr-2" size={24} />
               <span>React.js</span>
+            </div>
+            <div className="flex items-center mr-4 mb-2">
+              <SiRust className="text-orange-700 mr-2" size={24} />
+              <span>Rust</span>
             </div>
             <div className="flex items-center mr-4 mb-2">
               <SiNextdotjs className="text-gray-700 mr-2" size={24} />
@@ -96,6 +107,15 @@ const Resume = () => {
             <div className="flex items-center mr-4 mb-2">
               <SiApachekafka className="text-blue-600 mr-2" size={24} />
               <span>Kafka</span>
+            </div>
+            <div className="flex items-center mr-4 mb-2">
+              <FaNetworkWired className="text-green-600 mr-2" size={24} />
+              <span>Networking</span>
+            </div>
+            
+            <div className="flex items-center mr-4 mb-2">
+              <SiLinux className="text-gray-800 mr-2" size={24} />
+              <span>Linux </span>
             </div>
           </div>
         </div>

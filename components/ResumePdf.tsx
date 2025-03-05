@@ -50,11 +50,69 @@ const ResumePDF = () => (
           <Text style={styles.skill}>JavaScript</Text>
           <Text style={styles.skill}>Dart</Text>
           <Text style={styles.skill}>C#</Text>
-          {/* Add more skills */}
+          <Text style={styles.skill}>React.js</Text>
+          <Text style={styles.skill}>Rust</Text>
+          <Text style={styles.skill}>Next.js</Text>
+          <Text style={styles.skill}>Flutter</Text>
+          <Text style={styles.skill}>Node.js</Text>
+          <Text style={styles.skill}>PostgreSQL</Text>
+          <Text style={styles.skill}>MongoDB</Text>
+          <Text style={styles.skill}>MySQL</Text>
+          <Text style={styles.skill}>SQL Server</Text>
+          <Text style={styles.skill}>Git</Text>
+          <Text style={styles.skill}>Docker</Text>
+          <Text style={styles.skill}>Kafka</Text>
+          <Text style={styles.skill}>Network Administration</Text>
+          <Text style={styles.skill}>Cisco Networking</Text>
+          <Text style={styles.skill}>Network Protocols</Text>
+          <Text style={styles.skill}>Linux Networking</Text>
         </View>
       </View>
 
-      {/* Add more sections like Experience, Education, Certifications, Projects, and Awards */}
+      <View style={styles.section}>
+        <Text style={styles.heading}>Experience</Text>
+        <Text>
+          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
+          practices. Adept at collaborating with clients and delivering high-quality solutions.
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.heading}>Education</Text>
+        <Text>
+          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
+          practices. Adept at collaborating with clients and delivering high-quality solutions.
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.heading}>Certifications</Text>
+        <Text>
+          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
+          practices. Adept at collaborating with clients and delivering high-quality solutions.
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.heading}>Projects</Text>
+        <Text>
+          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
+          practices. Adept at collaborating with clients and delivering high-quality solutions.
+        </Text>
+      </View>
+
+      <View style={styles.section}>
+        <Text style={styles.heading}>Awards</Text>
+        <Text>
+          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
+          practices. Adept at collaborating with clients and delivering high-quality solutions.
+        </Text>
+      </View>
     </Page>
   </Document>
 );
