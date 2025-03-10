@@ -166,6 +166,15 @@ const Resume = () => {
           </ul>
         </div>
 
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold mb-2">Referees</h2>
+          <ul className="list-disc list-inside">
+            <li>Name: John Doe - Position: Senior Developer - Contact: john.doe@example.com</li>
+            <li>Name: Jane Smith - Position: Project Manager - Contact: jane.smith@example.com</li>
+            <li>Name: Emily Johnson - Position: Tech Lead - Contact: emily.johnson@example.com</li>
+          </ul>
+        </div>
+
       {/*  <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Awards and Achievements</h2>
           <ul className="list-disc list-inside">
