@@ -37,7 +37,7 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Summary</h2>
           <p>
-            Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+            Experienced freelance full-stack engineer with a strong background in designing and developing web, desktop and mobile applications
             using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
             practices. Adept at collaborating with clients and delivering high-quality solutions. Specializes in 
             microservices design, and implementing scalable, secure IT infrastructure 
