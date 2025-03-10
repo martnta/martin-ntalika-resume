@@ -19,6 +19,7 @@ import {
   SiCisco,
   SiWireshark,
   SiLinux,
+  SiLaravel,
 } from 'react-icons/si';
 import { FaNetworkWired } from 'react-icons/fa';
 
@@ -112,7 +113,10 @@ const Resume = () => {
               <FaNetworkWired className="text-green-600 mr-2" size={24} />
               <span>Networking</span>
             </div>
-            
+            <div className="flex items-center mr-4 mb-2">
+              <SiLaravel className="text-red-500 mr-2" size={24} />
+              <span>Laravel</span>
+            </div>
             <div className="flex items-center mr-4 mb-2">
               <SiLinux className="text-gray-800 mr-2" size={24} />
               <span>Linux </span>
