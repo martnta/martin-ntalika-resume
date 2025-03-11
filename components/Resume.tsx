@@ -169,13 +169,13 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Referees</h2>
           <ul className="list-disc list-inside">
-            <li>Name: John Doe - Position: Senior Developer - Contact: john.doe@example.com</li>
-            <li>Name: Jane Smith - Position: Project Manager - Contact: jane.smith@example.com</li>
-            <li>Name: Emily Johnson - Position: Tech Lead - Contact: emily.johnson@example.com</li>
+            <li>Name: Noel Phiri - Position: Senior Developer | Malawi Liverpool Trust - Contact: 0885 73 98 05</li>
+            <li>Name: Joel Kavinya - Position: Project Manager | Hivemasters- Contact: 0884 84 98 79</li>
+            <li>Name: Craig Kakatera - Position: Lead Developer | Elizabeth Glaser Pediatric AIDS Foundation - Contact: 0997 74 70 90</li>
           </ul>
         </div>
 
-      {/*  <div className="mb-8">
+      {/*  <div className="mb-8"> 
           <h2 className="text-2xl font-bold mb-2">Awards and Achievements</h2>
           <ul className="list-disc list-inside">
             <li>Recipient of the `Best Hack` award at a local hackathon for developing an innovative solution (2019).</li>
