@@ -166,14 +166,29 @@ const Resume = () => {
           </ul>
         </div>
 
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold mb-2">Referees</h2>
-          <ul className="list-disc list-inside">
-            <li>Name: Noel Phiri - Position: Senior Developer | Malawi Liverpool Trust - Contact: 0885 73 98 05</li>
-            <li>Name: Joel Kavinya - Position: Project Manager | Hivemasters- Contact: 0884 84 98 79</li>
-            <li>Name: Craig Kakatera - Position: Lead Developer | Elizabeth Glaser Pediatric AIDS Foundation - Contact: 0997 74 70 90</li>
-          </ul>
-        </div>
+    <div className="mb-8">
+      <h2 className="text-2xl font-bold mb-2">Referees</h2>
+      <ul className="list-disc list-inside">
+        <li>
+          <strong>Noel Phiri</strong> - Senior Developer at Malawi Liverpool Trust
+          <br />
+          Contact: <a href="tel:0885739805" className="text-blue-600">0885 73 98 05</a>
+
+
+        </li>
+        <li>
+          <strong>Joel Kavinya</strong> - Project Manager at Hivemasters
+          <br />
+          Contact: <a href="tel:08848498979" className="text-blue-600">0884 84 98 79</a>
+          
+        </li>
+        <li>
+          <strong>Craig Kakatera</strong> - Lead Developer at Elizabeth Glaser Pediatric AIDS Foundation
+          <br />
+          Contact: <a href="tel:0997747090" className="text-blue-600">0997 74 70 90</a>
+        </li>
+      </ul>
+    </div>
 
       {/*  <div className="mb-8"> 
           <h2 className="text-2xl font-bold mb-2">Awards and Achievements</h2>
