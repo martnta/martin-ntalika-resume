@@ -127,7 +127,7 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Professional Experience</h2>
           <div className="mb-4">
-            <h3 className="text-xl font-bold">Freelance Full-Stack Engineer</h3>
+            <h3 className="text-xl font-bold"> Full-Stack Engineer</h3>
             <p className="text-gray-600">Jan 2018 - Present</p>
             <ul className="list-disc list-inside">
               <li>Designed,Developed and maintained web applications for various clients using different frameworks and languages.</li>
@@ -160,8 +160,8 @@ const Resume = () => {
         <div className="mb-8">
           <h2 className="text-2xl font-bold mb-2">Projects</h2>
           <ul className="list-disc list-inside">
-            <li>Contributed to open-source projects, including a popular React component library.</li>
-            <li>Built a personal portfolio website using Next.js and deployed it on a serverless platform.</li>
+         
+            <li>Built a personal portfolio website using Next.js and deployed it on a vercel.</li>
             <li>Personal payment gateway project (ongoing).</li>
           </ul>
         </div>
@@ -190,12 +190,6 @@ const Resume = () => {
       </ul>
     </div>
 
-      {/*  <div className="mb-8"> 
-          <h2 className="text-2xl font-bold mb-2">Awards and Achievements</h2>
-          <ul className="list-disc list-inside">
-            <li>Recipient of the `Best Hack` award at a local hackathon for developing an innovative solution (2019).</li>
-          </ul>
-  </div>*/}
       </motion.div>
     </div>
   );

@@ -32,15 +32,17 @@ const ResumePDF = () => (
     <Page size="A4" style={styles.page}>
       <View>
         <Text style={styles.heading}>Martin Ntalika</Text>
-        <Text>Freelance Full-Stack Engineer</Text>
+        <Text>Full-Stack Engineer</Text>
       </View>
 
       <View style={styles.section}>
         <Text style={styles.heading}>Summary</Text>
         <Text>
-          Experienced freelance full-stack engineer with a strong background in developing web and mobile applications
+          Experienced freelance full-stack engineer with a strong background in designing and developing web, desktop and mobile applications
           using a variety of technologies. Proficient in front-end and back-end development, databases, and DevOps
-          practices. Adept at collaborating with clients and delivering high-quality solutions.
+          practices. Adept at collaborating with clients and delivering high-quality solutions. Specializes in 
+          microservices design, and implementing scalable, secure IT infrastructure 
+          with expertise in containerization, continuous integration, and network optimization.
         </Text>
       </View>
 
@@ -62,8 +64,8 @@ const ResumePDF = () => (
           <Text style={styles.skill}>Git</Text>
           <Text style={styles.skill}>Docker</Text>
           <Text style={styles.skill}>Kafka</Text>
-          <Text style={styles.skill}>Network Administration</Text>
-          <Text style={styles.skill}>Cisco Networking</Text>
+          <Text style={styles.skill}>Networking</Text>
+          <Text style={styles.skill}>Laravel</Text>
           <Text style={styles.skill}>Network Protocols</Text>
           <Text style={styles.skill}>Linux Networking</Text>
         </View>
@@ -113,6 +115,25 @@ const ResumePDF = () => (
           practices. Adept at collaborating with clients and delivering high-quality solutions.
         </Text>
       </View>
+
+   <View style={styles.section}>
+     <Text style={styles.heading}>Referees</Text>
+     <Text>
+       <strong>Noel Phiri</strong> - Senior Developer at Malawi Liverpool Trust
+       {'\n'}Contact: 0885 73 98 05
+
+     </Text>
+     <Text>
+       <strong>Joel Kavinya</strong> - Project Manager at Hivemasters
+       {'\n'}Contact: 0884 84 98 79
+
+     </Text>
+     <Text>
+       <strong>Craig Kakatera</strong> - Lead Developer at Elizabeth Glaser Pediatric AIDS Foundation
+       {'\n'}Contact: 0997 74 70 90
+     
+     </Text>
+   </View>
     </Page>
   </Document>
 );
