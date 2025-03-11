@@ -130,7 +130,7 @@ const Resume = () => {
             <h3 className="text-xl font-bold">Freelance Full-Stack Engineer</h3>
             <p className="text-gray-600">Jan 2018 - Present</p>
             <ul className="list-disc list-inside">
-              <li>Developed and maintained web applications for various clients using React.js, Node.js, and PostgreSQL.</li>
+              <li>Designed,Developed and maintained web applications for various clients using different frameworks and languages.</li>
               <li>Built mobile applications using Flutter and Dart for both iOS and Android platforms.</li>
               <li>Implemented real-time features using WebSockets and Kafka for seamless data streaming.</li>
               <li>Optimized database queries and implemented caching strategies to improve application performance.</li>
